@@ -1,6 +1,32 @@
 * {
-    font-family: "Poppins", sans-serif;
+    font-family: "Lato", sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: #fff; 
+  }
+
+#discount-bar{
+    background-color: #007BFF;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    padding: 9px 0;
+}
+
+#discount-bar .coupon {
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+
+#discount-value {
+    background-color: #8a2be2; 
+    color: white;
+    padding: 2px 4px;
+    border-radius: 4px; 
+}
+
