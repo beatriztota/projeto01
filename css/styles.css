@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   background-color: #fff;
 }
 
@@ -197,15 +197,14 @@ body {
 .supersale {
   font-family: "Nunito", serif;
   display: flex;
-  align-items: center; 
-  justify-content: space-between; 
+  align-items: center;
+  justify-content: space-between;
   width: 1920px;
   height: 510px;
   top: 148px;
-  background: #E7E7EA;
-  padding: 0 200px; 
+  background: #e7e7ea;
+  padding: 0 200px;
 }
-
 
 .supersale-image {
   width: 685px;
@@ -216,26 +215,25 @@ body {
 .supersale-content {
   display: flex;
   flex-direction: column;
-  width: 45%; 
+  width: 45%;
   margin-right: 120px;
 }
 
 .supersale-title {
   text-align: center;
   font-size: 100px;
-  font-weight: normal; 
+  font-weight: normal;
 }
 
 .supersale-title span {
-  font-weight: 700; 
+  font-weight: 700;
 }
-
 
 .supersale-text {
   text-align: center;
   font-size: 25px;
   font-weight: 700;
-  color: #005CFF;
+  color: #005cff;
   text-transform: uppercase;
   line-height: 100%;
   letter-spacing: 8px;
@@ -245,5 +243,167 @@ body {
   text-align: center;
   font-size: 60px;
   font-weight: 700;
-  color: #005CFF;
+  color: #005cff;
 }
+
+.section-header {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  gap: 61rem; 
+  margin: 0 auto;
+  padding: 15px 20px;
+  margin-top: 50px;
+}
+
+.section-title {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.see-more {
+  font-size: 14px;
+  color: #000;
+  text-decoration: none;
+}
+
+.see-more:hover {
+  text-decoration: underline;
+}
+
+.products-carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  max-width: 1200px;
+  overflow: hidden;
+  position: relative; 
+  padding: 40px 20px;
+}
+
+.swiper {
+  width: 100%;
+  overflow: hidden;
+}
+
+.swiper-slide {
+  width: calc(100% / 5 - 30px); 
+  margin-right: 30px; 
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 320px;      
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;    
+}
+
+.product-card img {
+  max-width: 100%; 
+  max-height: 222px; 
+  object-fit: contain;
+}
+
+
+.product-description {
+  font-size: 14px;
+  color: #000;
+  margin-bottom: 8px;
+}
+
+.old-price {
+  font-size: 12px;
+  color: #303030;
+  text-decoration: line-through;
+}
+
+.new-price {
+  font-size: 16px;
+  color: #000;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.discount {
+  font-size: 12px;
+  background-color: #5EC0BE;
+  text-decoration: underline;
+  color: #fff;
+  font-weight: bold;
+  margin-left: 10px;
+  padding: 3px 3px;
+  border-radius: 3px;
+}
+
+
+.installment {
+  font-size: 12px;
+}
+
+.installment-highlight {
+  font-weight: bold;
+  color: #000;
+}
+
+.buy-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #005CFF;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 10px 60px; 
+  margin-top: 15px;  
+  margin-bottom: 15px;
+}
+
+
+.buy-button:hover {
+  background-color: #0056b3;
+}
+
+
+.swiper-button-next,
+.swiper-button-prev {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+
+
+.swiper-pagination {
+  position: absolute;
+  bottom: -40px; 
+  left: 50%;
+  transform: translateX(-50%); 
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  z-index: 10;
+}
+
+
+
+.swiper-pagination-bullet {
+  background-color: #007bff; 
+  width: 10px;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+

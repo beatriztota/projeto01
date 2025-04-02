@@ -19,9 +19,12 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
-
     <link rel="stylesheet" href="/projeto01/css/styles.css" />
-    <script src="/projeto01/js/scripts.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+
     <title>Avanti</title>
   </head>
   <body>
@@ -148,12 +151,128 @@
 
     <!-- seção sale -->
     <section class="supersale">
-      <img src="src/image.png" alt="Super Sale" class="supersale-image" />
+      <img src="src/sale.png" alt="Super Sale" class="supersale-image" />
       <div class="supersale-content">
         <h1 class="supersale-title"><span>SUPER</span>SALE</h1>
         <p class="supersale-text">Itens selecionados com até</p>
         <p class="supersale-discount">50% OFF</p>
       </div>
     </section>
+
+    <!-- seção do Carrossel -->
+    <div class="section-header">
+      <h2 class="section-title">Lançamentos</h2>
+      <a href="#" class="see-more">Ver mais</a>
+    </div>
+
+    <div class="products-carousel">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide product-card">
+            <img src="src/produto.png" alt="Produto 1" />
+            <h3 class="product-description">
+              Lorem ipsum dolor sit amet consectetuer adipiscing elit
+            </h3>
+            <p class="old-price"><span>R$ 100,00</span></p>
+            <span>R$ 79,90</span> <span class="discount">10% OFF</span>
+            <p class="installment">
+              Ou em até
+              <span class="installment-highlight">10x de R$ 7,90</span>
+            </p>
+            <button class="buy-button">Comprar</button>
+          </div>
+
+          <div class="swiper-slide product-card">
+            <img src="src/produto.png" alt="Produto 2" />
+            <h3 class="product-description">
+              Lorem ipsum dolor sit amet consectetuer adipiscing elit
+            </h3>
+            <p class="old-price"><span>R$ 100,00</span></p>
+            <span>R$ 79,90</span> <span class="discount">10% OFF</span>
+            <p class="installment">
+              Ou em até
+              <span class="installment-highlight">10x de R$ 7,90</span>
+            </p>
+            <button class="buy-button">Comprar</button>
+          </div>
+
+          <div class="swiper-slide product-card">
+            <img src="src/produto.png" alt="Produto 3" />
+            <h3 class="product-description">
+              Lorem ipsum dolor sit amet consectetuer adipiscing elit
+            </h3>
+            <p class="old-price"><span>R$ 100,00</span></p>
+            <span>R$ 79,90</span> <span class="discount">10% OFF</span>
+            <p class="installment">
+              Ou em até
+              <span class="installment-highlight">10x de R$ 7,90</span>
+            </p>
+            <button class="buy-button">Comprar</button>
+          </div>
+
+          <div class="swiper-slide product-card">
+            <img src="src/produto.png" alt="Produto 4" />
+            <h3 class="product-description">
+              Lorem ipsum dolor sit amet consectetuer adipiscing elit
+            </h3>
+            <p class="old-price"><span>R$ 100,00</span></p>
+            <span>R$ 79,90</span> <span class="discount">10% OFF</span>
+            <p class="installment">
+              Ou em até
+              <span class="installment-highlight">10x de R$ 7,90</span>
+            </p>
+            <button class="buy-button">Comprar</button>
+          </div>
+
+          <div class="swiper-slide product-card">
+            <img src="src/produto.png" alt="Produto 5" />
+            <h3 class="product-description">
+              Lorem ipsum dolor sit amet consectetuer adipiscing elit
+            </h3>
+            <p class="old-price"><span>R$ 100,00</span></p>
+            <span>R$ 79,90</span> <span class="discount">10% OFF</span>
+            <p class="installment">
+              Ou em até
+              <span class="installment-highlight">10x de R$ 7,90</span>
+            </p>
+            <button class="buy-button">Comprar</button>
+          </div>
+
+          <div class="swiper-slide product-card">
+            <img src="src/produto.png" alt="Produto 6" />
+            <h3 class="product-description">
+              Lorem ipsum dolor sit amet consectetuer adipiscing elit
+            </h3>
+            <p class="old-price"><span>R$ 100,00</span></p>
+            <span>R$ 79,90</span> <span class="discount">10% OFF</span>
+            <p class="installment">
+              Ou em até
+              <span class="installment-highlight">10x de R$ 7,90</span>
+            </p>
+            <button class="buy-button">Comprar</button>
+          </div>
+
+          <div class="swiper-slide product-card">
+            <img src="src/produto.png" alt="Produto 7" />
+            <h3 class="product-description">
+              Lorem ipsum dolor sit amet consectetuer adipiscing elit
+            </h3>
+            <p class="old-price"><span>R$ 100,00</span></p>
+            <span>R$ 79,90</span> <span class="discount">10% OFF</span>
+            <p class="installment">
+              Ou em até
+              <span class="installment-highlight">10x de R$ 7,90</span>
+            </p>
+            <button class="buy-button">Comprar</button>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="js/scripts.js"></script>
   </body>
 </html>
