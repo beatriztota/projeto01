@@ -1,11 +1,11 @@
 * {
-  font-family: "Nunito Sans", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 body {
+  font-family: 'Nunito Sans', sans-serif;
   background-color: #fff;
 }
 
@@ -38,7 +38,7 @@ body {
   background: white;
   padding: 15px 0;
   width: 1920px;
-  height: 148px;
+  height: 118px;
 }
 
 .container {
@@ -156,7 +156,7 @@ body {
 .categories {
   display: flex;
   align-items: center;
-  justify-content: center; 
+  justify-content: center;
   width: 100%;
   height: 60px;
 }
@@ -164,7 +164,7 @@ body {
 .categories-left {
   display: flex;
   align-items: center;
-  margin-right: 60px; 
+  margin-right: 60px;
 }
 
 #categories-icon {
@@ -191,5 +191,59 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 22px;
-  letter-spacing: 0%
+  letter-spacing: 0%;
+}
+
+.supersale {
+  font-family: "Nunito", serif;
+  display: flex;
+  align-items: center; 
+  justify-content: space-between; 
+  width: 1920px;
+  height: 510px;
+  top: 148px;
+  background: #E7E7EA;
+  padding: 0 200px; 
+}
+
+
+.supersale-image {
+  width: 685px;
+  mix-blend-mode: Darken;
+  margin-left: 110px;
+}
+
+.supersale-content {
+  display: flex;
+  flex-direction: column;
+  width: 45%; 
+  margin-right: 120px;
+}
+
+.supersale-title {
+  text-align: center;
+  font-size: 100px;
+  font-weight: normal; 
+}
+
+.supersale-title span {
+  font-weight: 700; 
+}
+
+
+.supersale-text {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+  color: #005CFF;
+  text-transform: uppercase;
+  line-height: 100%;
+  letter-spacing: 8px;
+}
+
+.supersale-discount {
+  text-align: center;
+  font-size: 60px;
+  font-weight: 700;
+  color: #005CFF;
 }
