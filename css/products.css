@@ -35,8 +35,8 @@
 }
 
 .product-card {
-  position: relative; 
-  height: 380px; 
+  position: relative;
+  height: 380px;
   border: 1px solid #ddd;
   border-radius: 5px;
   width: 320px;
@@ -52,7 +52,7 @@
   height: 22px;
   top: 7px;
   left: 8px;
-  background: #00264E;
+  background: #00264e;
   color: white;
   border-radius: 4px;
   font-weight: 700;
@@ -69,8 +69,14 @@
 }
 
 .product-description {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
   font-size: 14px;
-  color: #000;
+  line-height: 1.4;
+  max-height: 2.8em;
+  -webkit-box-orient: vertical;
+  color: #303030;
   margin-bottom: 8px;
 }
 
@@ -133,14 +139,14 @@
 
 .swiper-button-next,
 .swiper-button-prev {
-  background: none; 
+  background: none;
   width: auto;
   height: auto;
 }
 
 .swiper-button-next::after,
 .swiper-button-prev::after {
-  display: none; 
+  display: none;
 }
 
 .swiper-button-next img,
@@ -149,7 +155,6 @@
   height: 30px;
   cursor: pointer;
 }
-
 
 .swiper-pagination {
   position: absolute;
