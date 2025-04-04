@@ -31,6 +31,8 @@ const swiperSecond = new Swiper(".mySwiperSecond", {
   },
 });
 
+updateDots(swiperSecond.realIndex, "second");
+
 function updateDots(activeIndex, carousel) {
   const dots = document.querySelectorAll(`.dot[data-carousel="${carousel}"]`);
   dots.forEach((dot, i) => {
