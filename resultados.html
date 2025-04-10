@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--fontes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--fonte-awesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <!--importação do css -->
+
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/result.css" />
+    <link rel="stylesheet" href="css/header.css" />
+
+    <title>Avanti</title>
+  </head>
+  <body>
+     <!-- barra de desconto -->
+     <div class="fixed-top-container">
+        <div id="discount-bar">
+          <p>
+            Ganhe <span id="discount-value">R$ 10,00</span> de desconto no seu
+            primeiro pedido. Utilize o cupom <span class="coupon">DESCONTO10</span>
+          </p>
+        </div>
+        <header id="main-header">
+          <div class="container">
+            <!-- logo -->
+            <a href='index.html' class="logo">
+            <img src="src/header/logo.png">
+    
+            </a>
+         <!-- serach bar -->
+         <div class="search-bar">
+          <input type="text" id="searchInput" placeholder="Digite aqui o que você procura" />
+          <button id="searchButton">
+            <i class="fas fa-search"></i>
+          </button>
+        </div>
+        <!-- user -->
+        <div class="user-actions">
+          <a href="#" class="client-section"
+            > <img src="src/header/user.png">
+            Olá, <br />
+            Nome Cliente!</a
+          >
+          <!-- carrinho -->
+          <a href="#" class="cart"
+            > <img src="src/header/cart.png">
+            <span class="cart-badge">2</span>
+          </a>
+        </div>
+      </div>
+    
+          <!-- categorias -->
+          <div class="categories">
+            <div class="categories-left">
+              <i id="categories-icon" class="fa-solid fa-bars"></i>
+              <span id="all-categories" class="category-title">Todas as Categorias</span>
+            </div>
+    
+            <ul class="category-list">
+              <li data-dept="true">Departamento</li>
+              <li data-dept="true">Departamento</li>
+              <li data-dept="true">Departamento</li>
+              <li data-dept="true">Departamento</li>
+              <li data-dept="true">Departamento</li>
+              <li data-dept="true">Departamento</li>
+              <li data-dept="true">Departamento</li>
+              <li data-dept="true">Departamento</li>
+            </ul>
+        </div> 
+
+        <section class="result-header">
+            <h2 id="resultado-texto">Resultados para: ""</h2>
+            <div class="underline"></div>
+          </section>
+      
+          <section id="produtos-container" class="results-container">
+          </section>
+
+    <script src="js/results.js"></script>
+  </body>
+</html>
